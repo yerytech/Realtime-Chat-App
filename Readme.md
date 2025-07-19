@@ -75,7 +75,6 @@ ChatApp/
 - SignalR Client (@microsoft/signalr)
 - Axios
 - SweetAlert2
-- OpenIIS UI
 
 ## 🚀 Instalación y Configuración
 
