@@ -1,0 +1,53 @@
+# ========================
+# 📦 GENERAL
+# ========================
+*.log
+*.tmp
+*.bak
+*.swp
+*.orig
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ========================
+# 🔙 BACKEND (.NET Core)
+# ========================
+chatAppBakend/bin/
+chatAppBakend/obj/
+chatAppBakend/.vs/
+chatAppBakend/Migrations/*Designer.cs
+chatAppBakend/Migrations/*Snapshot.cs
+
+# ⚠️ Ignorar configuraciones sensibles
+chatAppBakend/appsettings.json
+chatAppBakend/appsettings.Development.json
+chatAppBakend/appsettings.Local.json
+
+# ========================
+# 🎨 FRONTEND (React + Vite)
+# ========================
+ChatAppWeb/node_modules/
+ChatAppWeb/dist/
+ChatAppWeb/.env
+ChatAppWeb/.env.* 
+ChatAppWeb/.DS_Store
+ChatAppWeb/.vite/
+ChatAppWeb/.cache/
+ChatAppWeb/public/build/
+
+# ========================
+# 📦 DEPLOY / BUILD
+# ========================
+*.publish/
+*.deploy/
+*.tar.gz
+*.zip
